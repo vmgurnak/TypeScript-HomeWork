@@ -19,3 +19,6 @@ const isWeekend = (day: DayOfWeek): boolean => {
       return false;
   }
 };
+
+console.log(isWeekend(DayOfWeek.Saturday));
+console.log(isWeekend(DayOfWeek.Monday));
